@@ -1,0 +1,430 @@
+{
+  "blogs": [
+    {
+      "title": "Build a portfolio project you can explain",
+      "slug": "build-a-portfolio-project-you-can-explain",
+      "tag": "Projects",
+      "excerpt": "Choose a small problem, finish the core flow and show your reasoning.",
+      "content": "Begin with one user and one task. A library search tool or a study planner is easier to finish when the first version has a clear boundary. Write three acceptance criteria before choosing your tools.\n\nBuild the smallest usable flow, then test empty inputs, invalid values and failed requests. Keep screenshots and short notes as the project evolves. These notes become evidence of how you solved problems.\n\nYour README should explain setup, the main design choices and known limitations. Include a short walkthrough and distinguish implemented features from future ideas. A focused, honest case study is more useful than a long list of unfinished features.",
+      "image": "/seed-media/build-a-portfolio-project-you-can-explain.svg"
+    },
+    {
+      "title": "A practical routine for learning programming",
+      "slug": "a-practical-routine-for-learning-programming",
+      "tag": "Learning",
+      "excerpt": "Make practice deliberate with small exercises and a weekly review.",
+      "content": "Start a session with a small task you can finish: validate a form, filter a list or write a function. Attempt it before reading a complete solution so you can identify the exact concept that needs work.\n\nKeep a debugging journal. Record the input, expected result, actual result and the change that fixed the issue. Revisit recurring mistakes and create a smaller exercise for each one.\n\nAt the end of the week, rebuild one exercise without copying. Explain it aloud, add an edge case and ask for feedback. Consistency and reflection make your practice easier to evaluate.",
+      "image": "/seed-media/a-practical-routine-for-learning-programming.svg"
+    },
+    {
+      "title": "Turn a project into a clear interview story",
+      "slug": "turn-a-project-into-a-clear-interview-story",
+      "tag": "Career",
+      "excerpt": "Explain the problem, your contribution and the trade-offs you considered.",
+      "content": "Introduce the user problem in two sentences. State what you personally built and how the project was divided if you worked in a team. Avoid presenting a tutorial implementation as original research.\n\nChoose one technical decision to explore: a data model, a validation rule or a performance improvement. Describe alternatives and why you selected your approach. Use a concrete example rather than a list of tools.\n\nClose with how you tested the feature and what remains incomplete. If you measured an improvement, explain the measurement. Practise a short version and a longer version so you can adapt to follow-up questions.",
+      "image": "/seed-media/turn-a-project-into-a-clear-interview-story.svg"
+    },
+    {
+      "title": "Clean data before building a dashboard",
+      "slug": "clean-data-before-building-a-dashboard",
+      "tag": "Data Analytics",
+      "excerpt": "Check definitions, missing values and duplicates before drawing conclusions.",
+      "content": "Write down what each row represents and what each column means. Confirm units, date formats and the period covered. Keep a copy of the original dataset so cleaning steps can be reproduced.\n\nProfile missing values and duplicate identifiers. Do not remove rows automatically: a repeated customer can represent a valid second purchase. Record the rules used to correct or exclude records.\n\nChoose charts that answer specific questions. Show the time range and relevant filters, and reconcile totals against the source. Explain limitations so readers know what the dashboard can and cannot support.",
+      "image": "/seed-media/clean-data-before-building-a-dashboard.svg"
+    },
+    {
+      "title": "Design forms that help people recover",
+      "slug": "design-forms-that-help-people-recover",
+      "tag": "Web Development",
+      "excerpt": "Make validation, loading and error states part of the interface.",
+      "content": "Give every control a visible label and explain unusual requirements before submission. Use the correct input type and keep keyboard navigation predictable. Placeholder text should not replace labels.\n\nValidate on the server even when the browser already checks inputs. Put error messages near the affected fields and preserve entered values when a request fails. Avoid clearing a long form after a temporary network error.\n\nDisable duplicate submissions while a request is pending and show a clear success state when it finishes. Test using a keyboard, a narrow screen and slow requests. A form is complete when failure is understandable as well as success.",
+      "image": "/seed-media/design-forms-that-help-people-recover.svg"
+    },
+    {
+      "title": "Write a README that makes your work usable",
+      "slug": "write-a-readme-that-makes-your-work-usable",
+      "tag": "Projects",
+      "excerpt": "Help someone install, run and review your project without guessing.",
+      "content": "Open with the problem your project solves and a screenshot or short description of its main flow. List prerequisites and show the exact commands needed to start the application.\n\nDocument environment variable names with safe example values. Never include real passwords or API keys. Explain how to prepare sample data and distinguish development settings from deployment settings.\n\nInclude checks a reviewer can run and describe known limitations. Keep setup instructions updated when dependencies or scripts change. Ask a classmate to follow the README on a clean checkout.",
+      "image": "/seed-media/write-a-readme-that-makes-your-work-usable.svg"
+    },
+    {
+      "title": "Plan a mobile app that works offline",
+      "slug": "plan-a-mobile-app-that-works-offline",
+      "tag": "Mobile Development",
+      "excerpt": "Decide what users can do when a network connection disappears.",
+      "content": "Identify which information needs to remain available offline. A study timer may save sessions locally, while a ticket booking flow must confirm availability with a server. Make that distinction visible to users.\n\nModel local records with stable identifiers and track pending changes. Think about conflicting edits and explain how retries behave. Do not show a successful remote save until the server confirms it.\n\nTest by disconnecting during a request and restarting the app. Check that saved work remains available and that reconnection does not create duplicates. Document which features require connectivity.",
+      "image": "/seed-media/plan-a-mobile-app-that-works-offline.svg"
+    },
+    {
+      "title": "Create a test plan for your first web app",
+      "slug": "create-a-test-plan-for-your-first-web-app",
+      "tag": "Software Testing",
+      "excerpt": "Cover important user journeys, permission boundaries and failure cases.",
+      "content": "List the main journeys before writing automated tests. For a store demo, include browsing products, changing quantities and handling an empty basket. Describe the expected result for each step.\n\nAdd negative cases such as invalid fields, unknown record identifiers and expired sessions. Verify that restricted actions are checked on the server. Use fictional records and an isolated test environment.\n\nAutomate stable, repeatable checks and keep exploratory notes for usability issues. When a defect is fixed, add a regression check that would have caught it. Report what was tested and the limitations of that coverage.",
+      "image": "/seed-media/create-a-test-plan-for-your-first-web-app.svg"
+    }
+  ],
+  "work": [
+    {
+      "title": "Campus Connect",
+      "project_course": "MERN Full Stack",
+      "technologies": "React, Node.js, MongoDB",
+      "description": "Sample project concept. A campus noticeboard with club events, searchable announcements and role-based publishing.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/campus-connect.svg"
+    },
+    {
+      "title": "Local Market",
+      "project_course": "MERN Full Stack",
+      "technologies": "React, Express, MongoDB",
+      "description": "Sample project concept. A neighbourhood store with product search, a persistent basket and a simulated checkout flow.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/local-market.svg"
+    },
+    {
+      "title": "Task Trail",
+      "project_course": "MERN Full Stack",
+      "technologies": "React, Node.js, MongoDB",
+      "description": "Sample project concept. A team task board with priorities, due dates and progress tracking across project stages.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/task-trail.svg"
+    },
+    {
+      "title": "Learn Loop",
+      "project_course": "Python Full Stack",
+      "technologies": "Django, Python, PostgreSQL",
+      "description": "Sample project concept. A learning portal with lesson progress, quizzes and instructor-managed course material.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/learn-loop.svg"
+    },
+    {
+      "title": "Book Nest",
+      "project_course": "Python Full Stack",
+      "technologies": "Django, Python, SQLite",
+      "description": "Sample project concept. A library catalogue with book search, borrowing records and overdue reminders.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/book-nest.svg"
+    },
+    {
+      "title": "Care Queue",
+      "project_course": "Java Full Stack",
+      "technologies": "Java, Spring Boot, MySQL",
+      "description": "Sample project concept. A clinic appointment prototype using fictional records, time-slot validation and queue management.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/care-queue.svg"
+    },
+    {
+      "title": "Stay Finder",
+      "project_course": "Java Full Stack",
+      "technologies": "Java, Spring Boot, React",
+      "description": "Sample project concept. A rental listing application with location filters, saved properties and enquiry forms.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/stay-finder.svg"
+    },
+    {
+      "title": "Food Route",
+      "project_course": "MERN Full Stack",
+      "technologies": "React, Express, MongoDB",
+      "description": "Sample project concept. A food ordering prototype with menu filters, basket totals and simulated delivery updates.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/food-route.svg"
+    },
+    {
+      "title": "Expense Atlas",
+      "project_course": "Python Full Stack",
+      "technologies": "Python, Django, Chart.js",
+      "description": "Sample project concept. A personal expense tracker with monthly budgets, category summaries and CSV exports.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/expense-atlas.svg"
+    },
+    {
+      "title": "Event Pass",
+      "project_course": "MERN Full Stack",
+      "technologies": "React, Node.js, MongoDB",
+      "description": "Sample project concept. An event booking system with seat limits, registration validation and digital ticket previews.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/event-pass.svg"
+    },
+    {
+      "title": "Habit Garden",
+      "project_course": "Flutter Development",
+      "technologies": "Flutter, Dart, SQLite",
+      "description": "Sample project concept. A mobile habit tracker with daily check-ins, streak calculations and offline storage.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/habit-garden.svg"
+    },
+    {
+      "title": "Travel Pocket",
+      "project_course": "Flutter Development",
+      "technologies": "Flutter, Dart, REST API",
+      "description": "Sample project concept. A trip planner with day-by-day itineraries, saved places and a travel budget summary.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/travel-pocket.svg"
+    },
+    {
+      "title": "Study Timer",
+      "project_course": "React Native",
+      "technologies": "React Native, JavaScript, AsyncStorage",
+      "description": "Sample project concept. A focus timer with study sessions, break reminders and weekly progress history.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/study-timer.svg"
+    },
+    {
+      "title": "Campus Bus",
+      "project_course": "Android Development",
+      "technologies": "Kotlin, Android, Room",
+      "description": "Sample project concept. A campus bus timetable prototype with saved routes and offline schedule access.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/campus-bus.svg"
+    },
+    {
+      "title": "Recipe Box",
+      "project_course": "React Native",
+      "technologies": "React Native, JavaScript, SQLite",
+      "description": "Sample project concept. A recipe organiser with ingredient search, favourites and shopping-list generation.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/recipe-box.svg"
+    },
+    {
+      "title": "Retail Insights",
+      "project_course": "Data Analytics",
+      "technologies": "Python, Pandas, Power BI",
+      "description": "Sample project concept. A dashboard exploring a synthetic retail dataset with category trends and seasonal comparisons.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/retail-insights.svg"
+    },
+    {
+      "title": "Air Quality Explorer",
+      "project_course": "Data Science with Python",
+      "technologies": "Python, Pandas, Plotly",
+      "description": "Sample project concept. An exploratory dashboard for sample sensor readings with missing-data checks and daily trends.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/air-quality-explorer.svg"
+    },
+    {
+      "title": "Movie Match",
+      "project_course": "Machine Learning",
+      "technologies": "Python, scikit-learn, Streamlit",
+      "description": "Sample project concept. A content-based recommendation prototype comparing movie features and explaining similarity scores.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/movie-match.svg"
+    },
+    {
+      "title": "Customer Segments",
+      "project_course": "Machine Learning",
+      "technologies": "Python, Pandas, scikit-learn",
+      "description": "Sample project concept. A clustering study on synthetic purchase records with feature scaling and segment visualisation.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/customer-segments.svg"
+    },
+    {
+      "title": "Support Ticket Classifier",
+      "project_course": "Machine Learning",
+      "technologies": "Python, scikit-learn, FastAPI",
+      "description": "Sample project concept. A text classification prototype that routes sample support tickets and reports evaluation metrics.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/support-ticket-classifier.svg"
+    },
+    {
+      "title": "Cloud Launchpad",
+      "project_course": "AWS Solutions Architect",
+      "technologies": "AWS, Terraform, Linux",
+      "description": "Sample project concept. A documented deployment lab for a static website with access policies and a cost checklist.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/cloud-launchpad.svg"
+    },
+    {
+      "title": "Pipeline Pilot",
+      "project_course": "DevOps",
+      "technologies": "Docker, GitHub Actions, Node.js",
+      "description": "Sample project concept. A containerised sample application with automated checks, build stages and deployment documentation.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/pipeline-pilot.svg"
+    },
+    {
+      "title": "Service Watch",
+      "project_course": "DevOps",
+      "technologies": "Prometheus, Grafana, Docker",
+      "description": "Sample project concept. A monitoring lab with sample service metrics, dashboard panels and configurable alert rules.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/service-watch.svg"
+    },
+    {
+      "title": "Network Lab Journal",
+      "project_course": "CCNA Certification",
+      "technologies": "Packet Tracer, VLAN, IPv4",
+      "description": "Sample project concept. A simulated campus network with subnet planning, VLAN isolation and troubleshooting notes.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/network-lab-journal.svg"
+    },
+    {
+      "title": "Secure Login Lab",
+      "project_course": "Ethical Hacking",
+      "technologies": "Python, Flask, SQLite",
+      "description": "Sample project concept. An isolated authentication lab exploring password hashing, rate limits and session expiry.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/secure-login-lab.svg"
+    },
+    {
+      "title": "Inventory Ledger",
+      "project_course": "MySQL",
+      "technologies": "MySQL, SQL, Python",
+      "description": "Sample project concept. A stock management database with transactions, reorder reports and documented schema constraints.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/inventory-ledger.svg"
+    },
+    {
+      "title": "Sales Warehouse",
+      "project_course": "Microsoft SQL Server",
+      "technologies": "SQL Server, SQL, Power BI",
+      "description": "Sample project concept. A reporting warehouse using synthetic sales records, dimensional modelling and reconciliation queries.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/sales-warehouse.svg"
+    },
+    {
+      "title": "Checkout Quality Suite",
+      "project_course": "Selenium Automation",
+      "technologies": "Selenium, Java, TestNG",
+      "description": "Sample project concept. An automated test suite for a demo storefront covering basket changes and checkout validation.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/checkout-quality-suite.svg"
+    },
+    {
+      "title": "API Contract Lab",
+      "project_course": "API Testing",
+      "technologies": "Postman, Newman, JavaScript",
+      "description": "Sample project concept. A repeatable API collection covering valid requests, validation errors and permission boundaries.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/api-contract-lab.svg"
+    },
+    {
+      "title": "Brand Launch Studio",
+      "project_course": "Digital Marketing",
+      "technologies": "Figma, HTML, Analytics",
+      "description": "Sample project concept. A fictional brand campaign with landing-page layouts, a content calendar and measurement plan.",
+      "student_name": null,
+      "external_url": null,
+      "category": "student-project",
+      "image": "/seed-media/brand-launch-studio.svg"
+    },
+    {
+      "title": "Interface sketchbook",
+      "category": "Design practice",
+      "description": "Sample wireframe exercise exploring a clear mobile navigation flow.",
+      "image": "/seed-media/interface-sketchbook.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    },
+    {
+      "title": "Pair programming notes",
+      "category": "Coding practice",
+      "description": "Sample collaboration exercise breaking a feature into small reviewable tasks.",
+      "image": "/seed-media/pair-programming-notes.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    },
+    {
+      "title": "Database modelling board",
+      "category": "Database practice",
+      "description": "Sample entity relationship exercise for a library borrowing workflow.",
+      "image": "/seed-media/database-modelling-board.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    },
+    {
+      "title": "Dashboard review",
+      "category": "Data practice",
+      "description": "Sample visualisation exercise comparing clear labels and useful chart choices.",
+      "image": "/seed-media/dashboard-review.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    },
+    {
+      "title": "Testing checklist",
+      "category": "Quality practice",
+      "description": "Sample testing exercise covering validation, edge cases and recovery states.",
+      "image": "/seed-media/testing-checklist.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    },
+    {
+      "title": "Capstone presentation",
+      "category": "Presentation practice",
+      "description": "Sample presentation outline explaining a problem, implementation and next steps.",
+      "image": "/seed-media/capstone-presentation.svg",
+      "student_name": null,
+      "project_course": null,
+      "technologies": null,
+      "external_url": null
+    }
+  ]
+}
